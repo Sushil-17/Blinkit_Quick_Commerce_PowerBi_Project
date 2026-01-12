@@ -15,7 +15,7 @@ Power BI, DAX, Power Query, Excel
 - Product Category Demand
 
 ## 📷 Dashboard Preview
-![Overview](Dashboard_Screenshots/overview1.png)
+![Overview](Dashboard_Screenshots/Overview1.png)
 
 ## 💡 Key Insights
 - Tier 3 outlets generated the highest revenue.
