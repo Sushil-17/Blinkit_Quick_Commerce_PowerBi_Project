@@ -1,0 +1,12 @@
+Total Sales = SUM('BlinkIT Grocery Data'[Sales])
+Avg Sales = AVERAGE('BlinkIT Grocery Data'[Sales])
+
+Avg Ratings = AVERAGE('BlinkIT Grocery Data'[Rating])
+No of Items = COUNTROWS('BlinkIT Grocery Data')
+
+Metrics = {
+    ("Total Sales", NAMEOF('BlinkIT Grocery Data'[Total Sales]), 0),
+    ("Avg Sales", NAMEOF('BlinkIT Grocery Data'[Avg Sales]), 1),
+    ("No of Items", NAMEOF('BlinkIT Grocery Data'[No of Items]), 2),
+    ("Avg Ratings", NAMEOF('BlinkIT Grocery Data'[Avg Ratings]), 3)
+}
